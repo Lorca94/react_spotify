@@ -16,8 +16,6 @@ const Sidebar = () => {
         <h4 style={{ padding: '0 10px' }}>Playlists</h4>
       </Playlists>
       <hr />
-      <SidebarChoice title="Punk Is Not Dead" />
-      <SidebarChoice title="Rock 2021" />
     </SidebarContainer>
   );
 };

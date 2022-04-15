@@ -30,17 +30,22 @@ const FooterCenter = styled.div`
     justify-content: space-between;
     align-items: center;
     max-width:150px;
+    & svg {
+        width: 38px;
+        height: 38px;
+    }
 `;
 
 const FooterRight = styled.div`
-    flex: 0.3;
+    flex: 0.2;
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-right: 35px;
+    margin-right: 20px;
     
     & .MuiSlider-root{
         color: #1ed760;
+        width: 90%;
     }
 `;
 

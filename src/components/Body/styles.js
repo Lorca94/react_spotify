@@ -12,12 +12,10 @@ const InfoContainer = styled.div`
 const Info = styled.div`
     background-color: rgba(200,200,200,.1);
     margin:40px 40px;
+    padding: 20px;
     border-radius: 25px;
-    & img{
-        width:15vw;
-        margin:20px 40px;
-        box-shadow: 0 4px 60px #000;
-    }
+    align-items: center;
+    justify-content: center;
     :hover{
         background-color: rgba(255,255,255,.2);
         transition: 300ms;

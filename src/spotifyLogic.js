@@ -21,7 +21,7 @@ const getTokenFromUrl = () => {
 
 const endpoint = 'https://accounts.spotify.com/authorize';
 const clientID = '181a6e80f36a4cc2b31d05439b5f688b';
-const redirectUri = 'http://localhost:3000';
+const redirectUri = 'https://thriving-centaur-b5fb72.netlify.app/';
 const scopes = ['user-read-currently-playing',
 'user-read-recently-played',
 'user-read-playback-state',
